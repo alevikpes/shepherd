@@ -1,0 +1,12 @@
+{
+    "video_file": "THE-HAGUE-Den-Haag-Drone-Aerial-4K-|-Scheveningen-Zuid-Holland-Nederland-Netherlands.mp4",
+    "ref_img": "den-haag-crossroads-3d-s.png",
+    "start_time": "0:0:25",
+    "end_time": "0:0:34",
+    "video_out_file": "case1-gray.mp4",
+    "codec": "XVID",
+    "detector": "ORB",
+    "descriptor": "ORB",
+    "matcher": "brute_force_standard",
+    "img_type": "gray"
+}

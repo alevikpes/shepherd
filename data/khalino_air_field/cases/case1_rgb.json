@@ -1,0 +1,34 @@
+{
+    "colour_scheme": "rgb",
+    "ref_img": "khalino-air-field-map.png",
+    "test_video": {
+        "video_file": "test1.mp4",
+        "start_time": "0:0:0",
+        "end_time": "0:0:13",
+        "video_out_file": "case1_rgb_out.mp4",
+        "codec": "MP4V"
+    },
+    "test_image": {
+        "img_file": "khalino-air-field-earth-1.png",
+        "img_out_file": "khalino-air-field-match-1-rgb.png"
+    },
+    "detection": {
+        "detector": "sift",
+        "descriptor": "sift",
+        "matcher": {
+            "type": "bf_l2",
+            "extended": true,
+            "k": 2,
+            "bf_cross_check": false,
+            "knn_distance": 0.75,
+            "min_match_count": 20
+        }
+    },
+    "enhancements": {
+        "enh_type": "blur",
+        "params": {
+            "blur_type": "blur",
+            "colour_scheme": "rgb"
+        }
+    }
+}

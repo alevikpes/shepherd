@@ -1,0 +1,11 @@
+numpy
+opencv-contrib-python
+opencv-python
+
+# testing
+pytest
+pytest-mock
+
+# linting
+flake8
+ruff

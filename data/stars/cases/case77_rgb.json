@@ -1,0 +1,29 @@
+{
+    "colour_scheme": "rgb",
+    "ref_img": "stars-ref.png",
+    "test_video": {
+        "video_file": "",
+        "start_time": "0:0:25",
+        "end_time": "0:0:34",
+        "video_out_file": "case1_rgb_out.mp4",
+        "codec": "MP4V"
+    },
+    "test_image": {
+        "img_file": "stars-test-7.png",
+        "img_out_file": "stars-out-77-rgb.png"
+    },
+    "detection": {
+        "detector": "orb",
+        "descriptor": "orb",
+        "matcher": "brute_force_standard",
+        "bf_best_matches": 20,
+        "knn_distance": 0.75
+    },
+    "enhancements": {
+        "enh_type": "blur",
+        "params": {
+            "blur_type": "blur",
+            "colour_scheme": "rgb"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "colour_scheme": "rgb",
+    "ref_img": "btr-1-cut.png",
+    "test_video": {
+        "video_file": "",
+        "start_time": "0:0:10",
+        "end_time": "01:49:00",
+        "video_out_file": "case2_rgb_out.mp4",
+        "codec": "MP4V"
+    },
+    "test_image": {
+        "img_file": "btr-5.jpg",
+        "img_out_file": "case2_rgb_out.jpg"
+    },
+    "detection": {
+        "detector": "orb",
+        "descriptor": "orb",
+        "matcher": "brute_force_standard",
+        "bf_best_matches": 20,
+        "knn_distance": 0.75
+    },
+    "enhancements": {
+        "enh_type": "blur",
+        "params": {
+            "blur_type": "blur",
+            "colour_scheme": "rgb"
+        }
+    }
+}

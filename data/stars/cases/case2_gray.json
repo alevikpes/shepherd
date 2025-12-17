@@ -1,0 +1,27 @@
+{
+    "colour_scheme": "gray",
+    "ref_img": "kurhaus-1-cut.jpg",
+    "test_video": {
+        "video_file": "test1.mp4",
+        "start_time": "0:0:0",
+        "end_time": "0:0:13",
+        "video_out_file": "case2-gray_out.mp4",
+        "codec": "MP4V"
+    },
+    "test_image": {
+        "img_file": "",
+        "img_out_file": ""
+    },
+    "detection": {
+        "detector": "ORB",
+        "descriptor": "ORB",
+        "matcher": "brute_force_standard"
+    },
+    "enhancements": {
+        "enh_type": "blur",
+        "params": {
+            "blur_type": "blur",
+            "colour_scheme": "rgb"
+        }
+    }
+}

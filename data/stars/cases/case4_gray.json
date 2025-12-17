@@ -1,0 +1,9 @@
+{
+    "video_file": "THE-HAGUE-Den-Haag-Drone-Aerial-4K-|-Scheveningen-Zuid-Holland-Nederland-Netherlands.mp4",
+    "ref_img": "kurhaus-1-cut.jpg",
+    "start_time": "0:9:13",
+    "end_time": "0:9:44",
+    "video_out_file": "case4-gray.mp4",
+    "detector": "ORB",
+    "img_type": "gray"
+}

@@ -1,0 +1,29 @@
+{
+    "colour_scheme": "rgb",
+    "ref_img": "staryi-oskil-map.png",
+    "test_video": {
+        "video_file": "test1.mp4",
+        "start_time": "0:0:0",
+        "end_time": "0:0:13",
+        "video_out_file": "case1_rgb_out.mp4",
+        "codec": "MP4V"
+    },
+    "test_image": {
+        "img_file": "staryi-oskil-earth-1.png",
+        "img_out_file": "staryi-oskil-match-1-rgb.png"
+    },
+    "detection": {
+        "detector": "orb",
+        "descriptor": "orb",
+        "matcher": "brute_force_standard",
+        "bf_best_matches": 20,
+        "knn_distance": 0.75
+    },
+    "enhancements": {
+        "enh_type": "blur",
+        "params": {
+            "blur_type": "blur",
+            "colour_scheme": "rgb"
+        }
+    }
+}

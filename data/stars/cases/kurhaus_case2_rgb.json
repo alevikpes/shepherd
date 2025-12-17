@@ -1,0 +1,29 @@
+{
+    "colour_scheme": "rgb",
+    "ref_img": "kurhaus-area-map.png",
+    "test_video": {
+        "video_file": "THE-HAGUE-Den-Haag-Drone-Aerial-4K-|-Scheveningen-Zuid-Holland-Nederland-Netherlands.mp4",
+        "start_time": "0:0:25",
+        "end_time": "0:0:34",
+        "video_out_file": "case2_rgb_out.mp4",
+        "codec": "MP4V"
+    },
+    "test_image": {
+        "img_file": "kurhaus-earth-2.png",
+        "img_out_file": "kurhaus-match-2-rgb.png"
+    },
+    "detection": {
+        "detector": "orb",
+        "descriptor": "orb",
+        "matcher": "brute_force_standard",
+        "bf_best_matches": 20,
+        "knn_distance": 0.75
+    },
+    "enhancements": {
+        "enh_type": "blur",
+        "params": {
+            "blur_type": "blur",
+            "colour_scheme": "rgb"
+        }
+    }
+}

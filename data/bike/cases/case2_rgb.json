@@ -1,0 +1,34 @@
+{
+    "colour_scheme": "rgb",
+    "ref_img": "bike-ref-1-900x600.png",
+    "test_video": {
+        "video_file": "webcam",
+        "start_time": "0:0:0",
+        "end_time": "0:0:13",
+        "video_out_file": "case1_rgb_out.mp4",
+        "codec": "MP4V"
+    },
+    "test_image": {
+        "img_file": "bike-ref-1.jpg",
+        "img_out_file": "bike-2-rgb-matches.png"
+    },
+    "detection": {
+        "detector": "orb",
+        "descriptor": "orb",
+        "matcher": {
+            "type": "bf_h",
+            "extended": true,
+            "k": 2,
+            "bf_cross_check": false,
+            "knn_distance": 0.75,
+            "min_match_count": 20
+        }
+    },
+    "enhancements": {
+        "enh_type": "blur",
+        "params": {
+            "blur_type": "blur",
+            "colour_scheme": "rgb"
+        }
+    }
+}
