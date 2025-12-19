@@ -1,4 +1,8 @@
-# Shepherd
+## Learn more about Russian agression against Ukraine
+
+[![Russian agression against Ukraine](https://war-sanctions.gur.gov.ua/resources/images/logo-ws.svg)](https://war-sanctions.gur.gov.ua/)
+
+# SHEPHERD
 
 Finds unique objects in images and videos by matching a given image of
 the object. It uses OpenCV Feature Matching algorithms.
