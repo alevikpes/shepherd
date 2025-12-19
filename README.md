@@ -19,8 +19,11 @@ anything.
 
 ### Setup
 
-Tested with Python v11, v13, v14. Use `venv` and `pip-tools` for correct
-versions matching.
+Tested with Python v11, v13, v14. Use
+[venv](https://docs.python.org/3/library/venv.html) and
+[pip-tools](https://pypi.org/project/pip-tools/) for correct
+versions matching. Create `requirements.txt` for your environment using
+`pip-compile` and `pip-sync` commands.
 
 > Check your PYTHONPATH and modify the imports if necessary.
 
